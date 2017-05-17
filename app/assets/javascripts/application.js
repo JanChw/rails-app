@@ -12,5 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require tether
+//= require bootstrapp
 //= require turbolinks
 //= require_tree .
+let f = x => y => x*y;
+console.log(f(3)(4));
